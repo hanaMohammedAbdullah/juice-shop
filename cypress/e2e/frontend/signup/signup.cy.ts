@@ -8,7 +8,7 @@ describe('signup', () => {
         'Dismiss'
       )
       cy.get('.close-dialog > .mdc-button__label > span').click({
-        force: true,
+        force: true
       })
       cy.get('.cc-btn').click({ force: true })
       cy.contains('account').click({ force: true })
@@ -21,7 +21,7 @@ describe('signup', () => {
       cy.get('#repeatPasswordControl').type('Main1234@')
       cy.get('#mat-mdc-form-field-label-8 > mat-label').click({ force: true })
       cy.get('#mat-option-3 > .mdc-list-item__primary-text').click({
-        force: true,
+        force: true
       })
       cy.get('#securityAnswerControl').type('test answer')
       cy.get('#registerButton').click({ force: true })
