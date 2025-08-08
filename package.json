@@ -48,6 +48,7 @@
     "..."
   ],
   "scripts": {
+    "open": "npm run cypress open",
     "build:frontend": "cd frontend && npm run build",
     "build:server": "tsc",
     "cypress:open": "cypress open",
